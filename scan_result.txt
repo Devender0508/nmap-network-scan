@@ -1,0 +1,112 @@
+# Nmap 7.95 scan initiated Sun Aug  3 07:43:41 2025 as: /usr/lib/nmap/nmap -sS -oN scan_result.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0049s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE    SERVICE
+21/tcp   open     ftp
+23/tcp   filtered telnet
+53/tcp   open     domain
+80/tcp   open     http
+139/tcp  filtered netbios-ssn
+443/tcp  open     https
+445/tcp  filtered microsoft-ds
+8000/tcp open     http-alt
+MAC Address: 7C:A9:6B:B8:77:E0 (Syrotech Networks.)
+
+Nmap scan report for 192.168.1.38
+Host is up (0.015s latency).
+All 1000 scanned ports on 192.168.1.38 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: A2:93:78:25:A3:9C (Unknown)
+
+Nmap scan report for 192.168.1.41
+Host is up (0.11s latency).
+All 1000 scanned ports on 192.168.1.41 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 6E:59:78:D1:86:A8 (Unknown)
+
+Nmap scan report for 192.168.1.43
+Host is up (0.33s latency).
+All 1000 scanned ports on 192.168.1.43 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: EA:27:68:93:92:59 (Unknown)
+
+Nmap scan report for 192.168.1.45
+Host is up (0.0074s latency).
+All 1000 scanned ports on 192.168.1.45 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 76:06:8D:66:14:EE (Unknown)
+
+Nmap scan report for 192.168.1.55
+Host is up (0.00021s latency).
+All 1000 scanned ports on 192.168.1.55 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 50:5A:65:C2:2A:41 (AzureWave Technology)
+
+Nmap scan report for 192.168.1.56
+Host is up (0.0067s latency).
+All 1000 scanned ports on 192.168.1.56 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: B2:DC:54:BB:77:F1 (Unknown)
+
+Nmap scan report for 192.168.1.58
+Host is up (0.031s latency).
+All 1000 scanned ports on 192.168.1.58 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 26:BF:19:9E:C0:E8 (Unknown)
+
+Nmap scan report for 192.168.1.60
+Host is up (0.039s latency).
+All 1000 scanned ports on 192.168.1.60 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: F0:77:C3:A7:2D:76 (Intel Corporate)
+
+Nmap scan report for 192.168.1.62
+Host is up (0.23s latency).
+All 1000 scanned ports on 192.168.1.62 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: AC:C3:3A:A1:29:5C (Samsung Electronics)
+
+Nmap scan report for 192.168.1.63
+Host is up (0.027s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 72:3B:35:11:C4:C9 (Unknown)
+
+Nmap scan report for 192.168.1.73
+Host is up (0.023s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+7070/tcp open  realserver
+MAC Address: 48:68:4A:25:C4:43 (Intel Corporate)
+
+Nmap scan report for 192.168.1.79
+Host is up (0.013s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+7070/tcp open  realserver
+MAC Address: 3C:21:9C:A7:58:F0 (Intel Corporate)
+
+Nmap scan report for 192.168.1.85
+Host is up (0.057s latency).
+All 1000 scanned ports on 192.168.1.85 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: D6:D8:5B:DF:F5:3C (Unknown)
+
+Nmap scan report for 192.168.1.94
+Host is up (0.079s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+MAC Address: F8:9E:94:72:B9:AB (Intel Corporate)
+
+Nmap scan report for 192.168.1.78
+Host is up (0.0000090s latency).
+All 1000 scanned ports on 192.168.1.78 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Sun Aug  3 07:52:41 2025 -- 256 IP addresses (16 hosts up) scanned in 539.88 seconds
