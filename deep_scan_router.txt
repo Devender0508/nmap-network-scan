@@ -1,0 +1,24 @@
+# Nmap 7.95 scan initiated Sun Aug  3 08:05:41 2025 as: /usr/lib/nmap/nmap -sV -O -p 21,23,53,80,139,443,445,8000 -oN deep_scan_router.txt 192.168.1.1
+Nmap scan report for 192.168.1.1
+Host is up (0.0043s latency).
+
+PORT     STATE    SERVICE      VERSION
+21/tcp   open     ftp          GNU Inetutils FTPd 1.9.4
+23/tcp   filtered telnet
+53/tcp   open     domain       dnsmasq 2.80
+80/tcp   open     tcpwrapped
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/https?
+445/tcp  filtered microsoft-ds
+8000/tcp open     tcpwrapped
+MAC Address: 7C:A9:6B:B8:77:E0 (Syrotech Networks.)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.10 - 4.11, Linux 3.2 - 4.14
+Network Distance: 1 hop
+Service Info: Host: localhost.localdomain
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Aug  3 08:05:50 2025 -- 1 IP address (1 host up) scanned in 9.37 seconds
